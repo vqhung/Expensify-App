@@ -15,9 +15,8 @@
        return (
          isAuthenticated ? (
            <div>
-             <Header>
-               <Component {...props}/>
-            </Header>
+             <Header />
+              <Component {...props}/>
            </div>
          ) : (
            <Redirect to="/" />
